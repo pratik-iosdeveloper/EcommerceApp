@@ -7,6 +7,10 @@
 
 import Foundation
 
+struct Store {
+    let items: [StoreItem]
+}
+
 struct StoreItem {
     let id: String
     let name: String
