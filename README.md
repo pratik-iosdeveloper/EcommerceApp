@@ -84,9 +84,7 @@ GET /products
 		{
 			"id": "product id",
 			"name": "product name",
-			"price": "product price",
-			"min_qty": "minimum quantity required to place an order",
-			"max_qty": "minimum quantity allowed to place an order"
+			"price": "product price"
 		}
 	]
 }
@@ -102,8 +100,6 @@ Note: Currently for the demonstration we are allowing only one product to the ca
 | `id`          | `String`            |
 | `name` 		| `String` 			  |
 | `price`	    | `String` 			  |
-| `min_qty`	    | `String`            |
-| `max_qty`	    | `String`            |
 
 ### Payload contract
 
