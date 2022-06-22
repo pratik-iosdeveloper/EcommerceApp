@@ -1,4 +1,4 @@
-# Ecommerce App Case
+# Ecommerce App
 
 ## App Specs
 
@@ -95,7 +95,7 @@ Note: Currently for the demonstration we are allowing only one product to the ca
 
 ```
 
-### Order Complete
+### Order Summary
 
 | Property      | Type                |
 |---------------|---------------------|
