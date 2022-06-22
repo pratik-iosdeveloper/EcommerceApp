@@ -18,6 +18,7 @@
 		30688BF6286362DA00EE4179 /* EcommerceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688BF5286362DA00EE4179 /* EcommerceAppUITestsLaunchTests.swift */; };
 		30688C032863659900EE4179 /* StoreInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 30688C022863659900EE4179 /* StoreInfo.json */; };
 		30688C052863663100EE4179 /* StoreItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C042863663100EE4179 /* StoreItem.swift */; };
+		30688C082863688C00EE4179 /* Products.json in Resources */ = {isa = PBXBuildFile; fileRef = 30688C072863688C00EE4179 /* Products.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		30688BF5286362DA00EE4179 /* EcommerceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		30688C022863659900EE4179 /* StoreInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StoreInfo.json; sourceTree = "<group>"; };
 		30688C042863663100EE4179 /* StoreItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItem.swift; sourceTree = "<group>"; };
+		30688C072863688C00EE4179 /* Products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Products.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				30688BDB286362DA00EE4179 /* Assets.xcassets */,
 				30688BDD286362DA00EE4179 /* LaunchScreen.storyboard */,
 				30688BE0286362DA00EE4179 /* Info.plist */,
+				30688C072863688C00EE4179 /* Products.json */,
 			);
 			path = EcommerceApp;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				30688BDC286362DA00EE4179 /* Assets.xcassets in Resources */,
 				30688BDA286362D800EE4179 /* Main.storyboard in Resources */,
 				30688C032863659900EE4179 /* StoreInfo.json in Resources */,
+				30688C082863688C00EE4179 /* Products.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
