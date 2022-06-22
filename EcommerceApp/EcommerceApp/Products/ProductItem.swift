@@ -7,6 +7,10 @@
 
 import Foundation
 
+struct Product {
+    let items: [ProductItem]
+}
+
 struct ProductItem {
     let id: String
     let name: String
