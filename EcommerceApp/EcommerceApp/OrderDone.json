@@ -1,0 +1,19 @@
+/* 
+  OrderDone.json
+  EcommerceApp
+
+  Created by Pratik on 22/06/22.
+  
+*/
+
+{
+    "items": [
+        {
+            "id": "1",
+            "name": "Product 1",
+            "price": "100"
+        }
+    ],
+    "total_price": "100",
+    "delivery_address": "Test address"
+}
