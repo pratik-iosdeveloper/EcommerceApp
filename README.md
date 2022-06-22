@@ -116,8 +116,8 @@ POST /orderDone
 			"price": "product price"
 		}
 	],
-	"total_price": "total price of the selected item(s)",
-	"delivery_address": "address to deliver the product(s)"
+	"totalPrice": "total price of the selected item(s)",
+	"deliveryAddress": "address to deliver the product(s)"
 }
 
 ```
