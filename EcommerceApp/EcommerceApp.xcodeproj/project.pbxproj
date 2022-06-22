@@ -16,6 +16,7 @@
 		30688BEA286362DA00EE4179 /* EcommerceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688BE9286362DA00EE4179 /* EcommerceAppTests.swift */; };
 		30688BF4286362DA00EE4179 /* EcommerceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688BF3286362DA00EE4179 /* EcommerceAppUITests.swift */; };
 		30688BF6286362DA00EE4179 /* EcommerceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688BF5286362DA00EE4179 /* EcommerceAppUITestsLaunchTests.swift */; };
+		30688C032863659900EE4179 /* StoreInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 30688C022863659900EE4179 /* StoreInfo.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		30688BEF286362DA00EE4179 /* EcommerceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30688BF3286362DA00EE4179 /* EcommerceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceAppUITests.swift; sourceTree = "<group>"; };
 		30688BF5286362DA00EE4179 /* EcommerceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30688C022863659900EE4179 /* StoreInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StoreInfo.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		30688BC6286362D800EE4179 = {
 			isa = PBXGroup;
 			children = (
+				30688C022863659900EE4179 /* StoreInfo.json */,
 				30688BD1286362D800EE4179 /* EcommerceApp */,
 				30688BE8286362DA00EE4179 /* EcommerceAppTests */,
 				30688BF2286362DA00EE4179 /* EcommerceAppUITests */,
@@ -234,6 +237,7 @@
 				30688BDF286362DA00EE4179 /* LaunchScreen.storyboard in Resources */,
 				30688BDC286362DA00EE4179 /* Assets.xcassets in Resources */,
 				30688BDA286362D800EE4179 /* Main.storyboard in Resources */,
+				30688C032863659900EE4179 /* StoreInfo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

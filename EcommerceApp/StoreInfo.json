@@ -1,0 +1,19 @@
+/* 
+  StoreInfo.json
+  EcommerceApp
+
+  Created by Pratik on 22/06/22.
+  
+*/
+
+{
+    "items": [
+        {
+            "id": "store id",
+            "name": "store name",
+            "address": "store address",
+            "phone": "store contact details",
+            "website": "store website link"
+        }
+    ]
+}
