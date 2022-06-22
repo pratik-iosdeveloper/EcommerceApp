@@ -120,8 +120,7 @@
 				30688BDB286362DA00EE4179 /* Assets.xcassets */,
 				30688BDD286362DA00EE4179 /* LaunchScreen.storyboard */,
 				30688BE0286362DA00EE4179 /* Info.plist */,
-				30688C0C28636D8600EE4179 /* OrderDone.json */,
-				30688C0E28636FCE00EE4179 /* OrderItem.swift */,
+				30688C102863710100EE4179 /* Orders */,
 			);
 			path = EcommerceApp;
 			sourceTree = "<group>";
@@ -159,6 +158,15 @@
 				30688C0928636B2200EE4179 /* ProductItem.swift */,
 			);
 			path = Products;
+			sourceTree = "<group>";
+		};
+		30688C102863710100EE4179 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				30688C0C28636D8600EE4179 /* OrderDone.json */,
+				30688C0E28636FCE00EE4179 /* OrderItem.swift */,
+			);
+			path = Orders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
