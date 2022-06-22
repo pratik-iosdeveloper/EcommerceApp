@@ -7,14 +7,22 @@
 
 import Foundation
 
-struct Store {
+struct Store: Codable {
     let items: [StoreItem]
+    
+    enum CodingKeys: String, CodingKey {
+        case items
+    }
 }
 
-struct StoreItem {
+struct StoreItem: Codable {
     let id: String
     let name: String
     let address: String
     let phone: String
     let website: String
+    
+    enum CodingKeys: String, CodingKey {
+        case id, name, address, phone, website
+    }
 }

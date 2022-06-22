@@ -22,6 +22,7 @@
 		30688C0A28636B2200EE4179 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C0928636B2200EE4179 /* ProductItem.swift */; };
 		30688C0D28636D8600EE4179 /* OrderDone.json in Resources */ = {isa = PBXBuildFile; fileRef = 30688C0C28636D8600EE4179 /* OrderDone.json */; };
 		30688C0F28636FCE00EE4179 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C0E28636FCE00EE4179 /* OrderItem.swift */; };
+		30688C1228638D3100EE4179 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C1128638D3100EE4179 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		30688C0928636B2200EE4179 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
 		30688C0C28636D8600EE4179 /* OrderDone.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = OrderDone.json; sourceTree = "<group>"; };
 		30688C0E28636FCE00EE4179 /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
+		30688C1128638D3100EE4179 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +113,9 @@
 		30688BD1286362D800EE4179 /* EcommerceApp */ = {
 			isa = PBXGroup;
 			children = (
-				30688C0B28636CA300EE4179 /* Products */,
 				30688C06286366E200EE4179 /* Store */,
+				30688C0B28636CA300EE4179 /* Products */,
+				30688C102863710100EE4179 /* Orders */,
 				30688BD2286362D800EE4179 /* AppDelegate.swift */,
 				30688BD4286362D800EE4179 /* SceneDelegate.swift */,
 				30688BD6286362D800EE4179 /* ViewController.swift */,
@@ -120,7 +123,7 @@
 				30688BDB286362DA00EE4179 /* Assets.xcassets */,
 				30688BDD286362DA00EE4179 /* LaunchScreen.storyboard */,
 				30688BE0286362DA00EE4179 /* Info.plist */,
-				30688C102863710100EE4179 /* Orders */,
+				30688C1128638D3100EE4179 /* API.swift */,
 			);
 			path = EcommerceApp;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				30688C052863663100EE4179 /* StoreItem.swift in Sources */,
 				30688BD5286362D800EE4179 /* SceneDelegate.swift in Sources */,
 				30688C0F28636FCE00EE4179 /* OrderItem.swift in Sources */,
+				30688C1228638D3100EE4179 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
