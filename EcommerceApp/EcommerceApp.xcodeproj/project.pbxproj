@@ -83,7 +83,6 @@
 		30688BC6286362D800EE4179 = {
 			isa = PBXGroup;
 			children = (
-				30688C022863659900EE4179 /* StoreInfo.json */,
 				30688BD1286362D800EE4179 /* EcommerceApp */,
 				30688BE8286362DA00EE4179 /* EcommerceAppTests */,
 				30688BF2286362DA00EE4179 /* EcommerceAppUITests */,
@@ -104,6 +103,7 @@
 		30688BD1286362D800EE4179 /* EcommerceApp */ = {
 			isa = PBXGroup;
 			children = (
+				30688C06286366E200EE4179 /* Store */,
 				30688BD2286362D800EE4179 /* AppDelegate.swift */,
 				30688BD4286362D800EE4179 /* SceneDelegate.swift */,
 				30688BD6286362D800EE4179 /* ViewController.swift */,
@@ -111,7 +111,6 @@
 				30688BDB286362DA00EE4179 /* Assets.xcassets */,
 				30688BDD286362DA00EE4179 /* LaunchScreen.storyboard */,
 				30688BE0286362DA00EE4179 /* Info.plist */,
-				30688C042863663100EE4179 /* StoreItem.swift */,
 			);
 			path = EcommerceApp;
 			sourceTree = "<group>";
@@ -131,6 +130,15 @@
 				30688BF5286362DA00EE4179 /* EcommerceAppUITestsLaunchTests.swift */,
 			);
 			path = EcommerceAppUITests;
+			sourceTree = "<group>";
+		};
+		30688C06286366E200EE4179 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				30688C022863659900EE4179 /* StoreInfo.json */,
+				30688C042863663100EE4179 /* StoreItem.swift */,
+			);
+			path = Store;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
