@@ -23,4 +23,6 @@ struct ProductItem: Codable {
     enum CodingKeys: String, CodingKey {
         case id, name, price
     }
+    
+    var formattedPrice: String { return "₹\(price)" }
 }
