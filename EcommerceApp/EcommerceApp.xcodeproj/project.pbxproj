@@ -35,6 +35,8 @@
 		30688C28286480DB00EE4179 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C26286480DB00EE4179 /* SuccessViewController.swift */; };
 		30688C2B2864B53800EE4179 /* StoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C2A2864B53800EE4179 /* StoreTableViewCell.swift */; };
 		30688C2C2864B53800EE4179 /* StoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C2A2864B53800EE4179 /* StoreTableViewCell.swift */; };
+		30688C2E2864B81200EE4179 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C2D2864B81200EE4179 /* ProductTableViewCell.swift */; };
+		30688C2F2864B81200EE4179 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C2D2864B81200EE4179 /* ProductTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,7 @@
 		30688C23286480C100EE4179 /* OrderSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryViewController.swift; sourceTree = "<group>"; };
 		30688C26286480DB00EE4179 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 		30688C2A2864B53800EE4179 /* StoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewCell.swift; sourceTree = "<group>"; };
+		30688C2D2864B81200EE4179 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				30688C2A2864B53800EE4179 /* StoreTableViewCell.swift */,
+				30688C2D2864B81200EE4179 /* ProductTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -357,6 +361,7 @@
 				30688C052863663100EE4179 /* StoreItem.swift in Sources */,
 				30688BD5286362D800EE4179 /* SceneDelegate.swift in Sources */,
 				30688C0F28636FCE00EE4179 /* OrderItem.swift in Sources */,
+				30688C2E2864B81200EE4179 /* ProductTableViewCell.swift in Sources */,
 				30688C212864809D00EE4179 /* HomeViewController.swift in Sources */,
 				30688C1228638D3100EE4179 /* API.swift in Sources */,
 				30688C2B2864B53800EE4179 /* StoreTableViewCell.swift in Sources */,
@@ -374,6 +379,7 @@
 				30688C172864758000EE4179 /* ProductItem.swift in Sources */,
 				30688C1D28647A6F00EE4179 /* OrderSummaryScreenUseCaseTests.swift in Sources */,
 				30688C162864742700EE4179 /* StoreItem.swift in Sources */,
+				30688C2F2864B81200EE4179 /* ProductTableViewCell.swift in Sources */,
 				30688C222864809D00EE4179 /* HomeViewController.swift in Sources */,
 				30688C182864758300EE4179 /* OrderItem.swift in Sources */,
 				30688C2C2864B53800EE4179 /* StoreTableViewCell.swift in Sources */,
