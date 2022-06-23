@@ -15,6 +15,8 @@ struct Order: Codable {
     enum CodingKeys: String, CodingKey {
         case items, totalPrice, deliveryAddress
     }
+    
+    var formattedTotalPrice: String { return "₹\(totalPrice)" }
 }
 
 struct OrderItem: Codable {
@@ -25,4 +27,6 @@ struct OrderItem: Codable {
     enum CodingKeys: String, CodingKey {
         case id, name, price
     }
+    
+    var formattedPrice: String { return "₹\(price)" }
 }
