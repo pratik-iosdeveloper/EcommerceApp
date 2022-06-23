@@ -69,8 +69,8 @@ Note: Currently as per the requirement we are displaying only one store, but we 
 | `id`          | `String`            |
 | `name` 		| `String` 			  |
 | `price`	    | `String` 			  |
-| `min_qty`	    | `String`            |
-| `max_qty`	    | `String`            |
+| `min_qty`	    | `String` (optional) |
+| `max_qty`	    | `String` (optional) |
 
 ### Payload contract
 
