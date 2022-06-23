@@ -27,6 +27,12 @@
 		30688C182864758300EE4179 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C0E28636FCE00EE4179 /* OrderItem.swift */; };
 		30688C1B2864772900EE4179 /* HomeScreenUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C192864772900EE4179 /* HomeScreenUseCaseTests.swift */; };
 		30688C1D28647A6F00EE4179 /* OrderSummaryScreenUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C1C28647A6F00EE4179 /* OrderSummaryScreenUseCaseTests.swift */; };
+		30688C212864809D00EE4179 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C202864809D00EE4179 /* HomeViewController.swift */; };
+		30688C222864809D00EE4179 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C202864809D00EE4179 /* HomeViewController.swift */; };
+		30688C24286480C100EE4179 /* OrderSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C23286480C100EE4179 /* OrderSummaryViewController.swift */; };
+		30688C25286480C100EE4179 /* OrderSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C23286480C100EE4179 /* OrderSummaryViewController.swift */; };
+		30688C27286480DB00EE4179 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C26286480DB00EE4179 /* SuccessViewController.swift */; };
+		30688C28286480DB00EE4179 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30688C26286480DB00EE4179 /* SuccessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,9 @@
 		30688C1128638D3100EE4179 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		30688C192864772900EE4179 /* HomeScreenUseCaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenUseCaseTests.swift; sourceTree = "<group>"; };
 		30688C1C28647A6F00EE4179 /* OrderSummaryScreenUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryScreenUseCaseTests.swift; sourceTree = "<group>"; };
+		30688C202864809D00EE4179 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		30688C23286480C100EE4179 /* OrderSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryViewController.swift; sourceTree = "<group>"; };
+		30688C26286480DB00EE4179 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +126,7 @@
 		30688BD1286362D800EE4179 /* EcommerceApp */ = {
 			isa = PBXGroup;
 			children = (
+				30688C1F2864806600EE4179 /* Controllers */,
 				30688C06286366E200EE4179 /* Store */,
 				30688C0B28636CA300EE4179 /* Products */,
 				30688C102863710100EE4179 /* Orders */,
@@ -182,6 +192,16 @@
 				30688BD4286362D800EE4179 /* SceneDelegate.swift */,
 			);
 			path = Delegates;
+			sourceTree = "<group>";
+		};
+		30688C1F2864806600EE4179 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				30688C202864809D00EE4179 /* HomeViewController.swift */,
+				30688C23286480C100EE4179 /* OrderSummaryViewController.swift */,
+				30688C26286480DB00EE4179 /* SuccessViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,11 +338,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30688C24286480C100EE4179 /* OrderSummaryViewController.swift in Sources */,
+				30688C27286480DB00EE4179 /* SuccessViewController.swift in Sources */,
 				30688BD3286362D800EE4179 /* AppDelegate.swift in Sources */,
 				30688C0A28636B2200EE4179 /* ProductItem.swift in Sources */,
 				30688C052863663100EE4179 /* StoreItem.swift in Sources */,
 				30688BD5286362D800EE4179 /* SceneDelegate.swift in Sources */,
 				30688C0F28636FCE00EE4179 /* OrderItem.swift in Sources */,
+				30688C212864809D00EE4179 /* HomeViewController.swift in Sources */,
 				30688C1228638D3100EE4179 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,11 +354,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30688C25286480C100EE4179 /* OrderSummaryViewController.swift in Sources */,
+				30688C28286480DB00EE4179 /* SuccessViewController.swift in Sources */,
 				30688C1B2864772900EE4179 /* HomeScreenUseCaseTests.swift in Sources */,
 				30688C132863980D00EE4179 /* API.swift in Sources */,
 				30688C172864758000EE4179 /* ProductItem.swift in Sources */,
 				30688C1D28647A6F00EE4179 /* OrderSummaryScreenUseCaseTests.swift in Sources */,
 				30688C162864742700EE4179 /* StoreItem.swift in Sources */,
+				30688C222864809D00EE4179 /* HomeViewController.swift in Sources */,
 				30688C182864758300EE4179 /* OrderItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
